@@ -218,7 +218,7 @@ loss_function = nn.BCELoss()
 optimizer = optim.SGD(model.parameters(), lr=0.1)
 
 # Training loop
-epochs = 100
+epochs = 200
 for epoch in range(epochs):
     # Compute the model's predictions, simply by calling the model as a function, passing in the input tensor
     predictions = model(X_tensor) # here i am goign ahead and passing in X_tensor into the model
